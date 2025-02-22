@@ -1,0 +1,22 @@
+# Ignore Node modules in both client and backend
+node_modules/
+client/node_modules/
+client/.next/
+backend/node_modules/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# If you use environment files
+.env
+.env.local
+.env.*.local
